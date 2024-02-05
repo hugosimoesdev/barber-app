@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Barber App
 
-## Getting Started
+This project was built during the Full Stack Week - 3rd Edition and aims to be a full-stack project developed from scratch! The project itself is a platform where you can schedule appointments for services at barbershops.
 
-First, run the development server:
+## Installation
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone the repository: `git clone https://github.com/hugosimoesdev/my-portfolio.git`
+2. Navigate to the project directory: `cd my-portfolio`
+3. Install the dependencies: `npm install`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Start the development server: `npm run dev`
+2. Open your browser and visit `http://localhost:3000` to view the website.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Features
 
-## Learn More
+The following features implemented in this project:
 
-To learn more about Next.js, take a look at the following resources:
+- [ ] Home Page
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Dependencies
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+The following dependencies are required for this project:
 
-## Deploy on Vercel
+- Next.js: A React framework for server-side rendering and static site generation.
+- Tailwind CSS: A highly customizable CSS framework.
+- React.js: A JavaScript library for building user interfaces.
+- Lucide Icons: A collection of popular icons.
+- Prisma: An ORM that simplifies the interaction between code and data stored in a database.
+- Shadcn UI: A set of interface components which helps to develop faster.
+- Ts-node: Allows you to execute Typescript code with Node.js.
+- Date-fns: Its a date manipulation library.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute the code as per the terms of the license.
